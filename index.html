@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="title">Memory game</p>
+    <div class="moves-container">
+      <div class="counter-container">
+        <p class="count"></p>
+      </div>
+      <p class="moves-left">Moves left</p>
+    </div>
+    <div class="row">
+      <div data-color="red" class="box red data-hidden"></div>
+      <div data-color="blue" class="box blue data-hidden"></div>
+      <div data-color="green" class="box green data-hidden"></div>
+      <div data-color="yellow" class="box yellow data-hidden"></div>
+    </div>
+    <div class="row">
+      <div data-color="yellow" class="box yellow data-hidden"></div>
+      <div data-color="green" class="box green data-hidden"></div>
+      <div data-color="blue" class="box blue data-hidden"></div>
+      <div data-color="red" class="box red data-hidden"></div>
+    </div>
+    <div class="row">
+      <div data-color="green" class="box green data-hidden"></div>
+      <div data-color="red" class="box red data-hidden"></div>
+      <div data-color="yellow" class="box yellow data-hidden"></div>
+      <div data-color="blue" class="box blue data-hidden"></div>
+    </div>
+    <div class="row">
+      <div data-color="blue" class="box blue data-hidden"></div>
+      <div data-color="yellow" class="box yellow data-hidden"></div>
+      <div data-color="red" class="box red data-hidden"></div>
+      <div data-color="green" class="box green data-hidden"></div>
+    </div>
+
+    <p class="result"></p>
+    <button onclick="play_again()" class="btn">play again</button>
+    <script src="script.js"></script>
+  </body>
+</html>
